@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-flex {
+    display: flex;
+}
+
+.nav-wrapper {
+    position: fixed;
+    justify-content: space-between;
+    width: 99%;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    height: 45px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    padding: 0 15px;
+}
+
+.list li a {
+    color: black;
+    font-weight: 700;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+.btn {
+    background-color: #567b95;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: 1px solid #326891;
+}
+
+.button-2 {
+    margin-right: 10px;
+}
