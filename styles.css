@@ -12,7 +12,6 @@ a {
 }
 
 .nav-wrapper {
-    position: fixed;
     justify-content: space-between;
     width: 99%;
     align-items: center;
@@ -48,9 +47,7 @@ a {
 .button-2 {
     margin-right: 10px;
 }
-.hero{
-  margin-top: 50px;
+
+.hero {
+    margin-top: 50px;
 }
-
-
-
