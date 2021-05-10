@@ -116,7 +116,7 @@
     
     .paragraph {
         margin: 30px auto 0;
-        width: 80%;
+        width: 65%;
     }
     
     .paragraph p {
@@ -195,4 +195,21 @@
         width: 20%;
         padding-left: 50px;
         font-size: 14px;
+    }
+    .video {
+        justify-content: center;
+
+    }
+    .paragraph h2{
+        margin: 30px auto;
+        width: 50%;
+
+    }
+    .image-7{
+        justify-content: center;
+
+    }
+    .image-7 img{
+        width: 45%;
+       
     }
