@@ -252,3 +252,56 @@
         width: 85%;
         margin: 30px auto 0;
     }
+    
+    .footer-top {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .top img {
+        width: 93%;
+    }
+    
+    .three {
+        justify-content: space-between;
+    }
+    
+    .img-2 {
+        border: 1px solid rgb(133, 133, 133);
+        width: 31%;
+    }
+    
+    .img-2 .fa {
+        float: right;
+        font-size: 30px;
+        background-color: transparent;
+        padding: 10px 10px 0 0;
+    }
+    
+    .img-2 img,
+    .img-2 p {
+        padding: 10px 0 0 10px;
+    }
+    
+    .img-2 .link-1 {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .img .link-2 {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .img .link-3 {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .top figcaption {
+        font-weight: bold;
+    }
+    
+    .top figcaption span {
+        padding-bottom: 4px;
+    }
