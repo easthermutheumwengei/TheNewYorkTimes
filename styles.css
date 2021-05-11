@@ -247,3 +247,8 @@
         border-color: transparent;
         color: white;
     }
+    
+    footer {
+        width: 85%;
+        margin: 30px auto 0;
+    }
