@@ -2,15 +2,20 @@
         padding: 0;
         margin: 0;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
+    li {
+        list-style: none;
+
+    }
+
     .menu-flex {
         display: flex;
     }
-    
+
     .nav-wrapper {
         position: fixed;
         top: 0;
@@ -22,24 +27,24 @@
         background-color: white;
         margin: 0 auto;
     }
-    
+
     .list {
         list-style: none;
     }
-    
+
     .list li {
         padding: 0 15px;
     }
-    
+
     .list li a {
         color: black;
         font-weight: 700;
     }
-    
+
     .logo-img {
         width: 200px;
     }
-    
+
     .btn {
         background-color: #567b95;
         color: white;
@@ -47,30 +52,30 @@
         border-radius: 2px;
         border: 1px solid #326891;
     }
-    
+
     .button-2 {
         margin-right: 10px;
     }
-    
+
     .hero {
         margin: 50px auto 0;
         width: 35%;
     }
-    
+
     .hero h1 {
         font-style: italic;
         font-size: 42px;
         padding-bottom: 15px;
         font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     }
-    
+
     .hero-1 {
         border-top: 1px solid #ebebeb;
         padding-top: 20px;
         margin-top: 25px;
         width: 100%;
     }
-    
+
     .list-1 li {
         border: 1px solid transparent;
         background-color: #eee;
@@ -81,98 +86,98 @@
         justify-content: center;
         margin-left: 5px;
     }
-    
+
     .hero-1 button {
         margin: 0px 15px;
         font-size: 28px;
         border: none;
     }
-    
+
     .hero-1 a img {
         width: 30px;
     }
-    
+
     .image-1 {
         flex-direction: column;
     }
-    
+
     .image-1 img {
         justify-content: center;
         width: 75%;
         height: 75vh;
         margin: 20px auto;
     }
-    
+
     .image-1 figcaption {
         width: 75%;
         margin: 0 auto;
         opacity: 0.7;
     }
-    
+
     .image-1 figcaption span {
         opacity: 0.6;
         font-size: 14px;
     }
-    
+
     .paragraph {
         margin: 30px auto 0;
         width: 65%;
     }
-    
+
     .paragraph p {
         margin: 0 auto;
         width: 50%;
         font-size: 20px;
     }
-    
+
     .paragraph p a strong {
         color: black;
     }
-    
+
     #date {
         font-size: 12px;
         padding: 20px 0;
     }
-    
+
     .style {
         text-decoration: underline;
         color: #326891;
     }
-    
+
     .side {
         width: 10%;
         float: right;
     }
-    
+
     .pics {
         padding: 10px 0;
     }
-    
+
     .pics img {
         width: 100px;
     }
-    
+
     .pics figcaption a {
         color: black;
     }
-    
+
     .times {
         text-align: center;
         font-size: 12px;
     }
-    
+
     hr {
         width: 8%;
         left: 48%;
         position: relative;
         margin: 10px 0;
     }
-    
+
     .paragraph-2 {
         margin: 0 auto;
         width: 70%;
     }
-    
+
     .bg-img {
         background-size: cover;
         background-image: url("./images/bg.png");
@@ -180,66 +185,66 @@
         height: 80vh;
         flex-direction: column;
     }
-    
+
     .text,
     .para {
         position: relative;
         top: 160px;
     }
-    
+
     .para {
         margin-top: 180px;
     }
-    
+
     .colums {
         width: 20%;
         padding-left: 50px;
         font-size: 14px;
     }
-    
+
     .video {
         justify-content: center;
     }
-    
+
     .paragraph h2 {
         margin: 30px auto;
         width: 50%;
     }
-    
+
     .image-7 {
         align-items: center;
         flex-direction: column;
     }
-    
+
     .image-7 figcaption {
         width: 45%;
         margin: 10px auto;
         opacity: 0.7;
     }
-    
+
     .image-7 img {
         width: 45%;
     }
-    
+
     .words p {
         font-size: 14px;
         opacity: 0.7;
     }
-    
+
     .words p a {
         color: black;
         text-decoration: underline;
     }
-    
+
     .words p a:hover {
         text-decoration: none;
     }
-    
+
     .letter {
         justify-content: center;
         margin-top: 20px;
     }
-    
+
     .letter button {
         padding: 8px 50px;
         margin-right: 50px;
@@ -247,61 +252,119 @@
         border-color: transparent;
         color: white;
     }
-    
+
+    .header-3 {
+        padding: 20px 0;
+    }
+
     footer {
-        width: 85%;
+        width: 80%;
         margin: 30px auto 0;
     }
-    
+
+    .suggestion {
+        border-top: 1px solid black;
+    }
+
     .footer-top {
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
-    
+
     .top img {
-        width: 93%;
+        width: 84%;
     }
-    
+
     .three {
         justify-content: space-between;
+        width: 95%;
     }
-    
+
     .img-2 {
         border: 1px solid rgb(133, 133, 133);
-        width: 31%;
+        width: 32%;
+        height: 300px;
     }
-    
+
     .img-2 .fa {
         float: right;
         font-size: 30px;
         background-color: transparent;
         padding: 10px 10px 0 0;
     }
-    
+
     .img-2 img,
     .img-2 p {
         padding: 10px 0 0 10px;
     }
-    
+
     .img-2 .link-1 {
         display: flex;
         align-items: flex-end;
     }
-    
+
     .img .link-2 {
         display: flex;
         align-items: flex-end;
     }
-    
+
     .img .link-3 {
         display: flex;
         align-items: flex-end;
     }
-    
+
     .top figcaption {
         font-weight: bold;
     }
-    
+
     .top figcaption span {
         padding-bottom: 4px;
+        font-size: 13px;
+        font-weight: 200;
+
+    }
+
+    .top figcaption a {
+        color: black;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .most-popular {
+        border-top: 1px solid black;
+    }
+
+    .most-popular ul li {
+        list-style-type: none;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+        width: 80%;
+    }
+
+    h5 {
+        font-size: 20px;
+        padding: 10px 0;
+        text-transform: uppercase;
+
+    }
+
+    .most-popular ul li a {
+        color: black;
+        font-size: 24px;
+    }
+
+
+    .ancher li a {
+        color: black;
+    }
+
+
+    .easter {
+        margin: 0 300px 0 0;
+    }
+
+    .bar {
+        padding-left: 10px;
+        margin-left: 100px;
+        border-left: 1px solid rgba(0, 0, 0, 0.322)
     }
